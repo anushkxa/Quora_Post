@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User's Post</title>
+    <link href="/style.css" rel="stylesheet">
+</head>
+<body>
+    <h2>Here is your Post in Detail</h2>
+    <p>Post id: <%= posts.id %></p>
+    <div class="post">
+        <h3 class="user">@<%= posts.username %></h3>
+        <h4 class="content"><%= posts.content %></h4>
+    </div>
+
+</body>
+</html>
